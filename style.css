@@ -1,0 +1,157 @@
+header {
+	background-color: #414141; color: rgb(255, 217, 0);
+
+}
+
+.caixa { 
+	padding: 20px;
+}
+
+.titulo-principal, h1 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+nav {
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 15px 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color:rgb(255, 217, 0);
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	
+}
+
+nav a:hover {
+	color: rgb(173, 173, 173);
+	text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.um  {
+    width: 30%;
+    margin-left: 20%;
+}
+
+.um:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.dois {
+    width: 30%;
+}
+
+.dois:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.giacfirst {
+    width: 30%;
+    margin-left: 20%;
+}
+
+.giacfirst:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.giacsecond {
+    width: 30%;
+}
+
+.giacsecond:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: 20;
+}
+
+.input-padrao {
+    width: 40%;
+}
+
+.enviar {
+    margin-top: 20px;
+    background: rgb(255, 217, 0);
+    font-weight: bold;
+    font-size: 16px;
+    border:none;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+    background: rgb(66, 66, 66);
+    color: rgb(255, 217, 0);
+}
+
+
+footer {
+	text-align: center;
+	background-color: #414141;
+	padding: 20px;
+	padding-top: 30px;
+	color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-selection {
+    display: flex;
+}
+
+.flex-item:first-child {
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.flex-item:last-child {
+    width: 40%;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.cartao {
+    width: 100%;
+}

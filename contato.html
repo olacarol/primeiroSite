@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1>Contato</h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="ilustracoes.html">Ilustra</a></li>
+						<li><a href="tattoo.html">Tattoo</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+			
+		<main>
+			<div class="flex-selection">
+				<div class="flex-item">
+					<p>
+						<form>
+							<label for="nomesobrenome">Nome e sobrenome</label>
+							<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+							<label for="email">Email</label>
+							<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+							<label for="telefone">Telefone</label>
+							<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+							<label for="mensagem">Mensagem</label>
+							<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+							<input type="submit" value="Enviar" class="enviar">
+						</form>		
+					</p>
+				</div>
+				<div class="flex-item">
+					<img src="cartao.png" class="cartao">
+				</div>
+			</div>
+						
+
+		</main>
+
+		<footer>
+			<p class="copyright">&copy; 2021 por Carol Barreto</p>
+		</footer>
+	</body>
+</html>
